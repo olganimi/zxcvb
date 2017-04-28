@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
 
-def landing(request):
+def help(request):
 
-    return render(request, 'landing/landing.html', locals())
+    return render(request, 'help/help.html', locals())
